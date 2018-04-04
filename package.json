@@ -1,0 +1,21 @@
+{
+  "name": "cassatrailmix",
+  "version": "1.0.0",
+  "description": "site proposal for CaSSA Trailmixes",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "keywords": [
+    "trailmix",
+    "lightning",
+    "design",
+    "system",
+    "cassa"
+  ],
+  "author": "Gabriel Camarena Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

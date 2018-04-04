@@ -1,0 +1,268 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Salesforce Latin America</title>
+		<link rel="stylesheet" type="text/css" href="/assets/styles/salesforce-lightning-design-system.css" />
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<style>
+		.th-header {
+		    background: #fff;
+		    border-bottom: 3px solid #00a1df;
+		    height: 111px
+		}
+			.th-hero{
+				overflow: hidden;
+			}
+			.th-hero--zion {
+			    /*background-image: url(/assets/home/codey@2x-56d95e534f002deb17fb44a4b9c223d5ae84f25d3576579a90cc78349e55803e.png),url(/assets/home/right-mountain@2x-93b425cbc1df5b87eca06610b31e923dceaff4244136e2da0af11ba24dafe9f8.png),url(/assets/home/mountain-range@2x-cb344d68ac1f238a5878a319623ecb587b7ac38eebfad26ef58433b8b1076bdc.png),linear-gradient(-180deg, #9DD1ED 10%, #C7E4EB 90%);
+			    background-repeat: no-repeat;
+			    background-position: left 0, right 0, left 0 top 0, 0 0;
+			    min-height: 210px;
+			    padding: 3rem 25% 0;
+			    background-size: 400px 400px, 480px 400px, cover, cover*/
+			    background-image: url(/assets/home/codey@2x-56d95e534f002deb17fb44a4b9c223d5ae84f25d3576579a90cc78349e55803e.png),url(/assets/home/right-mountain@2x-93b425cbc1df5b87eca06610b31e923dceaff4244136e2da0af11ba24dafe9f8.png),url(/assets/images/themes/oneSalesforce/banner-group-private-default.png);
+			    background-repeat: no-repeat;
+			    background-position: left 0, right 0, left 0 top 0, 0 0;
+			    /*min-height: 210px;
+			    padding: 3rem 25% 0;*/
+			    background-size: 200px 200px, 240px 200px, cover;
+			}
+			.th-hero__heading {
+			    letter-spacing: -0.44px;
+			    font-family: 'NexaRustSans-Black', Helvetica, Arial, sans-serif !important;
+			    text-transform: uppercase;
+			    color: #15385f;
+			    font-size: 24px;
+			    line-height: 1.1;
+			    margin: 0 0 0.5rem
+			}
+			.home .hero-content {
+			    width: 100%;
+			    max-width: 540px;
+			    text-align: center;
+			    margin: 0;
+			    position: absolute;
+			    top: 50%;
+			    left: 50%;
+			    margin-left: -270px;
+			    margin-top: -240px
+			}
+
+			.home .hero-content .logo {
+			    width: 150px;
+			    margin: 0 0 25px 0
+			}
+
+			.home .hero-content h1 {
+			    color: #003a62;
+			    margin: 0 auto 20px;
+			    letter-spacing: 0;
+			    max-width: 540px
+			}
+
+			.th-text--medium {
+			    font-size: 18px;
+			    font-size: 1.125rem
+			}
+
+			.th-text--large {
+			    font-size: 24px;
+			    font-size: 1.5rem
+			}
+
+			.th-text--x-large {
+			    font-size: 32px;
+			    font-size: 2rem
+			}
+
+			.th-text--nexa-rust {
+			    letter-spacing: -.44px;
+			    font-family: NexaRustSans-Black,SalesforceSans,Helvetica,Arial,sans-serif!important;
+			    text-transform: uppercase
+			}
+
+			.th-color--navy {
+			    color: #15385f
+			}
+
+			.th-careers__headshots {
+			    -webkit-box-pack: center;
+			    -ms-flex-pack: center;
+			    justify-content: center;
+			    margin: 24px 0;
+			    margin: 1.5rem 0
+			}
+
+			.th-careers__headshot {
+			    width: 120px;
+			    width: 7.5rem;
+			    margin: 0 8px;
+			    margin: 0 .5rem;
+			    text-align: center
+			}
+
+			.th-figure__image {
+			    background: #e2e2e2;
+			    border-radius: 100%;
+			    -webkit-box-shadow: 0 2px 0 0 rgba(0,0,0,.1);
+			    box-shadow: 0 2px 0 0 rgba(0,0,0,.1);
+			    border: 4px solid #fff;
+			    width: 108px;
+			    width: 6.75rem;
+			    min-height: 108px;
+			    min-height: 6.75rem
+			}
+
+			.th-figure__caption {
+			    font-size: 16px;
+			    font-size: 1rem;
+			    font-weight: 700
+			}
+
+			.th-footer {
+			    background: #fff;
+			    padding: 50px;
+			    font-size: 14px;
+			    line-height: 20px;
+			    -webkit-box-sizing: border-box;
+			    box-sizing: border-box;
+			    position: relative
+			}
+		</style>
+  </head>
+	</head>
+	<body>
+		<header class="th-header" >
+			<div class="slds-grid slds-p-horizontal_medium slds-grid_align-spread" >
+				<div class="slds-global-header__item">
+					<a title="site home">
+						<img alt="trailhead" style="width: 80px;" class="slds-m-vertical_medium" src="https://trailhead.salesforce.com/assets/trailhead-logo-d08befd2d122442532289967a988aa7a49eef27154969718441fbde0bd122fe8.svg" />
+					</a>
+				</div>
+				<div class="slds-global-header__item slds-global-header__item_search slds-grid slds-grid_vertical-align-center">
+					<div aria-expanded="false" aria-haspopup="listbox" class="slds-form-element slds-lookup" role="combobox" >
+						<label class="slds-assistive-text" for="global-search-01">Buscar en el sitio </label>
+						<div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_left-right">
+							<svg class="slds-input__icon slds-input__icon_left" aria-hidden="true">
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search" />									
+							</svg>
+							<input type="text" aria-autocomplete="list" aria-controls="global-search-list-01" autocomplete="off" class="slds-input slds-lookup__search-input" id="global-search-01" placeholder="Buscar en Salesforce" role="textbox" />
+						</div>
+						<br />
+						<nav class="slds-context-bar__secondary" role="navigation">
+							<ul class="slds-grid">
+								<li class="slds-context-bar__item">
+									<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Home">
+		            					<span class="slds-assistive-text">Current Page:</span>
+		            					<span class="slds-truncate" title="Home">Inicio</span>
+		        					</a>
+								</li>
+								<li class="slds-context-bar__item">
+									<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Home">
+		            					<span class="slds-truncate" title="Trails">Trailmixes</span>
+		        					</a>
+								</li>
+								<li class="slds-context-bar__item">
+									<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Home">
+		            					<span class="slds-truncate" title="Trails">Microdemos</span>
+		        					</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>	
+				<ul class="slds-global-header__item slds-grid slds-grid_vertical-align-center">
+					<li class="slds-dropdown-trigger slds-dropdown-trigger_click">
+						<button class="slds-button slds-button_icon slds-button_icon slds-button_icon-container slds-button_icon-small slds-global-header__button_icon" title="Help and Training">
+				            <svg class="slds-button__icon slds-global-header__icon" aria-hidden="true">
+				            	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#question" />
+				            </svg>
+				            <span class="slds-assistive-text">Ayuda y Capacitaci&oacute;n</span>
+			        	</button>
+			        </li>
+			        <li class="slds-dropdown-trigger slds-dropdown-trigger_click slds-m-left_x-small">
+			        	<button class="slds-button" title="nombre persona" aria-haspopup="true">
+			        		<span class="slds-avatar slds-avatar_circle slds-avatar_medium">
+			        			<img alt="Person name" src="/assets/images/avatar2.jpg" title="Avatar usuario" />
+        					</span>
+    					</button>
+    				</li>
+				</ul>		
+			</div>			
+		</header>
+		<main class="home">
+			<div class="th-hero th-hero--zion" style="height: 200px;">
+				<div class="hero-content slds-text-align_center">
+					<h1 class="th-hero__heading">¡Bienvenido a Salesforce!</h1>
+				</div>
+			</div>
+			<br />
+			<div class="th-careers">
+				<div class="slds-text-align_center slds-p-horizontal_small">
+					<h3 class="th-text--large th-text--nexa-rust th-color--navy slds-m-top_large slds-m-bottom_medium">
+						Adquiere nuevas habilidades
+					</h3>
+					<p class="th-color--navy th-text--medium">
+						Trailhead inspira el aprendizaje cont&iacute;nuo a lo largo de tu carrera.
+					</p>
+				</div>
+				<div class="th-careers__headshots slds-grid slds-wrap">
+					<div class="th-careers__headshot slds-grid slds-wrap">
+						<figure>
+							<img class="th-figure__image" src="https://trailhead.salesforce.com/assets/home/salesforce-admin-15b07906e0febc1eeb6aed2394ad3d24639a25987e9face816cca670f5e762cf.png" alt="Salesforce admin" />
+						</figure>
+						<figcaption class="th-figure__caption slds-m-top_small">
+							<a>Administrador de Salesforce</a>
+						</figcaption>
+					</div>
+					<div class="th-careers__headshot slds-grid slds-wrap">
+						<figure>
+							<img class="th-figure__image" src="https://trailhead.salesforce.com/assets/home/salesforce-developer-ff6f1ffc9f80c320d0217b024312a3103d917de81489d6a5cea5277e84ff4464.png" alt="Salesforce admin" />
+						</figure>
+						<figcaption class="th-figure__caption slds-m-top_small">
+							<a>Desarrollador de Salesforce</a>
+						</figcaption>
+					</div>
+					<div class="th-careers__headshot slds-grid slds-wrap">
+						<figure>
+							<img class="th-figure__image" src="https://trailhead.salesforce.com/assets/home/sales-manager-b545917e98320ce88d2bc1b5d218b9fbf65a9c41da5e04e8aa4fb7c8642e0167.png" alt="Salesforce admin" />
+						</figure>
+						<figcaption class="th-figure__caption slds-m-top_small">
+							<a>Gerente de Ventas</a>
+						</figcaption>
+					</div>
+					<div class="th-careers__headshot slds-grid slds-wrap">
+						<figure>
+							<img class="th-figure__image" src="https://trailhead.salesforce.com/assets/home/marketing-manager-9b0a75c932d3f1cc1132a86f70ac17ce50d25ede6c4e708f1e9d1cc65c781d79.png" alt="Salesforce admin" />
+						</figure>
+						<figcaption class="th-figure__caption slds-m-top_small">
+							<a>Gerente de Marketing</a>
+						</figcaption>
+					</div>
+					<div class="th-careers__headshot slds-grid slds-wrap">
+						<figure>
+							<img class="th-figure__image" src="https://trailhead.salesforce.com/assets/home/technical-architect-81439d650e5f868e86a4d471ce099f51c6c785e29245e63157ea5bb1068ba329.png" alt="Salesforce admin" />
+						</figure>
+						<figcaption class="th-figure__caption slds-m-top_small">
+							<a>Arquitecto T&eacute;cnico</a>
+						</figcaption>
+					</div>
+					<div class="th-careers__headshot slds-grid slds-wrap">
+						<figure>
+							<img class="th-figure__image" src="https://trailhead.salesforce.com/assets/home/business-analyst-57f471c12ac6b2bfd730629a11580dcd191c209cf8ec9c44c1b306a6e06d3be0.png" alt="Salesforce admin" />
+						</figure>
+						<figcaption class="th-figure__caption slds-m-top_small">
+							<a>Analista de Negocio</a>
+						</figcaption>
+					</div>
+				</div>
+			</div>
+			<div class="slds-brand-band slds-brand-band_medium">
+
+			</div>
+		</main>	
+	</body>
+</html>
